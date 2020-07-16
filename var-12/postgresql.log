@@ -1,0 +1,10 @@
+2020-07-14 16:59:48.468 EDT [2326] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2020-07-14 16:59:48.471 EDT [2326] LOG:  listening on IPv6 address "::1", port 5432
+2020-07-14 16:59:48.471 EDT [2326] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-07-14 16:59:48.472 EDT [2326] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-07-14 16:59:48.489 EDT [2327] LOG:  database system was shut down at 2020-07-14 16:59:48 EDT
+2020-07-14 16:59:48.494 EDT [2326] LOG:  database system is ready to accept connections
+2020-07-15 10:09:10.688 EDT [5394] ERROR:  value too long for type character varying(10)
+2020-07-15 10:09:10.688 EDT [5394] STATEMENT:  UPDATE "jobs_job" SET "image" = 'images/headed-down-1400175-640x480.jpg', "summary" = 'Experienced in Selenium Webdriver Using Java, C# & Python' WHERE "jobs_job"."id" = 1
+2020-07-16 13:03:44.511 EDT [11594] FATAL:  lock file "postmaster.pid" already exists
+2020-07-16 13:03:44.511 EDT [11594] HINT:  Is another postmaster (PID 2326) running in data directory "/Users/bk/Library/Application Support/Postgres/var-12"?
